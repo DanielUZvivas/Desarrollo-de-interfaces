@@ -1,0 +1,10 @@
+C:\Users\DanielU\Desktop\Interfaces1EV\EjercicioT4\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+C:\Users\DanielU\Desktop\Interfaces1EV\EjercicioT4\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe
+C:\Users\DanielU\Desktop\Interfaces1EV\EjercicioT4\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.pdb
+C:\Users\DanielU\Desktop\Interfaces1EV\EjercicioT4\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.AssemblyReference.cache
+C:\Users\DanielU\Desktop\Interfaces1EV\EjercicioT4\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.Form1.resources
+C:\Users\DanielU\Desktop\Interfaces1EV\EjercicioT4\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.Properties.Resources.resources
+C:\Users\DanielU\Desktop\Interfaces1EV\EjercicioT4\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.GenerateResource.cache
+C:\Users\DanielU\Desktop\Interfaces1EV\EjercicioT4\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\DanielU\Desktop\Interfaces1EV\EjercicioT4\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.exe
+C:\Users\DanielU\Desktop\Interfaces1EV\EjercicioT4\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.pdb
