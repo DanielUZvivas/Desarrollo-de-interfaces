@@ -66,7 +66,6 @@
             this.lb2.Name = "lb2";
             this.lb2.Size = new System.Drawing.Size(186, 82);
             this.lb2.TabIndex = 1;
-            this.lb2.SelectedIndexChanged += new System.EventHandler(this.lb2_SelectedIndexChanged);
             // 
             // btnAceptar
             // 
@@ -75,6 +74,7 @@
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 2;
             this.btnAceptar.Text = "Aceptar";
+            this.toolTip1.SetToolTip(this.btnAceptar, "Boton para añadir el texto en la lista");
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
@@ -82,19 +82,21 @@
             // 
             this.btnBorrar.Location = new System.Drawing.Point(321, 31);
             this.btnBorrar.Name = "btnBorrar";
-            this.btnBorrar.Size = new System.Drawing.Size(75, 23);
+            this.btnBorrar.Size = new System.Drawing.Size(105, 23);
             this.btnBorrar.TabIndex = 3;
-            this.btnBorrar.Text = "Borrar";
+            this.btnBorrar.Text = "Borrar de lista 1";
+            this.toolTip1.SetToolTip(this.btnBorrar, "Boton para borrar los elementos seleccionados");
             this.btnBorrar.UseVisualStyleBackColor = true;
             this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // btnTraspasar
             // 
-            this.btnTraspasar.Location = new System.Drawing.Point(402, 31);
+            this.btnTraspasar.Location = new System.Drawing.Point(430, 31);
             this.btnTraspasar.Name = "btnTraspasar";
-            this.btnTraspasar.Size = new System.Drawing.Size(75, 23);
+            this.btnTraspasar.Size = new System.Drawing.Size(143, 23);
             this.btnTraspasar.TabIndex = 4;
-            this.btnTraspasar.Text = "Traspasar";
+            this.btnTraspasar.Text = "Traspasar de lista 1 a la 2";
+            this.toolTip1.SetToolTip(this.btnTraspasar, "Boton para traspasar los seleccioandos de una lista a otra");
             this.btnTraspasar.UseVisualStyleBackColor = true;
             this.btnTraspasar.Click += new System.EventHandler(this.btnTraspasar_Click);
             // 
@@ -102,9 +104,8 @@
             // 
             this.txtFrase.Location = new System.Drawing.Point(240, 60);
             this.txtFrase.Name = "txtFrase";
-            this.txtFrase.Size = new System.Drawing.Size(237, 20);
+            this.txtFrase.Size = new System.Drawing.Size(333, 20);
             this.txtFrase.TabIndex = 5;
-            this.txtFrase.TextChanged += new System.EventHandler(this.txtFrase_TextChanged);
             // 
             // lblNelements
             // 
@@ -114,7 +115,6 @@
             this.lblNelements.Size = new System.Drawing.Size(35, 13);
             this.lblNelements.TabIndex = 6;
             this.lblNelements.Text = "label1";
-            this.lblNelements.Click += new System.EventHandler(this.lblNelements_Click);
             // 
             // lblIndicesSelected
             // 
@@ -136,6 +136,7 @@
             this.rbLista1.TabStop = true;
             this.rbLista1.Text = "Borrar Seleccionados en la Lista 1";
             this.rbLista1.UseVisualStyleBackColor = true;
+            this.rbLista1.CheckedChanged += new System.EventHandler(this.rbLista1_CheckedChanged);
             // 
             // rbLista2
             // 
@@ -146,6 +147,7 @@
             this.rbLista2.TabIndex = 9;
             this.rbLista2.Text = "Borrar Seleccionados en la Lista 2";
             this.rbLista2.UseVisualStyleBackColor = true;
+            this.rbLista2.CheckedChanged += new System.EventHandler(this.rbLista1_CheckedChanged);
             // 
             // rbTraspaso1
             // 
@@ -158,6 +160,7 @@
             this.rbTraspaso1.TabStop = true;
             this.rbTraspaso1.Text = "Traspasar Seleccionado Lista 1 a Lista 2";
             this.rbTraspaso1.UseVisualStyleBackColor = true;
+            this.rbTraspaso1.CheckedChanged += new System.EventHandler(this.rbTraspaso1_CheckedChanged);
             // 
             // rbTraspaso2
             // 
@@ -192,7 +195,7 @@
             this.Traspasar.Controls.Add(this.rbTraspaso2);
             this.Traspasar.Location = new System.Drawing.Point(460, 125);
             this.Traspasar.Name = "Traspasar";
-            this.Traspasar.Size = new System.Drawing.Size(200, 100);
+            this.Traspasar.Size = new System.Drawing.Size(240, 100);
             this.Traspasar.TabIndex = 13;
             this.Traspasar.TabStop = false;
             this.Traspasar.Text = "Traspasr";
@@ -215,7 +218,6 @@
             this.Controls.Add(this.lb1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.Eliminar.ResumeLayout(false);
             this.Eliminar.PerformLayout();
             this.Traspasar.ResumeLayout(false);

@@ -42,13 +42,9 @@ namespace Ejercicio44
             }
             else if (rbLista2.Checked)
             {
-                if (lb2.SelectedItems.Count > 0)
-                {
-                    for (int i = lb2.SelectedItems.Count - 1; i >= 0; i--)
-                    {
-                        lb2.Items.Remove(lb2.SelectedItems[i]);
-                    }
-                }
+               
+                        lb2.Items.Remove(lb2.SelectedItem);
+                 
 
             }
             labels();
@@ -70,38 +66,12 @@ namespace Ejercicio44
             }
             else if (rbTraspaso2.Checked)
             {
-                if (lb2.SelectedItems.Count > 0)
-                {
-                    for (int i = lb2.SelectedItems.Count - 1; i >= 0; i--)
-                    {
-                        lb1.Items.Add(lb2.SelectedItems[i]);
-                        lb2.Items.Remove(lb2.SelectedItems[i]);
-                    }
-                }
+                
+                        lb1.Items.Add(lb2.SelectedItem);
+                        lb2.Items.Remove(lb2.SelectedItem);
+                 
             }
             labels();
-        }
-
-        private void lb2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtFrase_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblNelements_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            toolTip1.SetToolTip(btnAceptar, "Boton para añadir el texto en la lista");
-            toolTip1.SetToolTip(btnBorrar, "Boton para borrar los elementos seleccionados");
-            toolTip1.SetToolTip(btnTraspasar, "Boton para traspasar los seleccioandos de una lista a otra");
         }
 
         private void labels()
@@ -137,6 +107,30 @@ namespace Ejercicio44
             else
             {
                 this.Icon = Properties.Resources.honda;
+            }
+        }
+
+        private void rbLista1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbLista1.Checked)
+            {
+                btnBorrar.Text = "Borrar de lista 1";
+            }
+            else
+            {
+                btnBorrar.Text = "Borrar de lista 2";
+            }
+        }
+
+        private void rbTraspaso1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbTraspaso1.Checked)
+            {
+                btnTraspasar.Text = "Traspasar de lista 1 a la 2";
+            }
+            else
+            {
+                btnTraspasar.Text = "Traspasar de lista 2 a la 1";
             }
         }
     }

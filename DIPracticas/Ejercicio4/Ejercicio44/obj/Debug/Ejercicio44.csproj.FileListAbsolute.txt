@@ -8,3 +8,13 @@ C:\Users\Usuario\Desktop\DIPracticas\Ejercicio44\Ejercicio44\obj\Debug\Ejercicio
 C:\Users\Usuario\Desktop\DIPracticas\Ejercicio44\Ejercicio44\obj\Debug\Ejercicio44.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\DIPracticas\Ejercicio44\Ejercicio44\obj\Debug\Ejercicio44.exe
 C:\Users\Usuario\Desktop\DIPracticas\Ejercicio44\Ejercicio44\obj\Debug\Ejercicio44.pdb
+C:\Users\Usuario\Desktop\DIPracticas\Ejercicio4\Ejercicio44\bin\Debug\Ejercicio44.exe.config
+C:\Users\Usuario\Desktop\DIPracticas\Ejercicio4\Ejercicio44\bin\Debug\Ejercicio44.exe
+C:\Users\Usuario\Desktop\DIPracticas\Ejercicio4\Ejercicio44\bin\Debug\Ejercicio44.pdb
+C:\Users\Usuario\Desktop\DIPracticas\Ejercicio4\Ejercicio44\obj\Debug\Ejercicio44.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\DIPracticas\Ejercicio4\Ejercicio44\obj\Debug\Ejercicio44.Form1.resources
+C:\Users\Usuario\Desktop\DIPracticas\Ejercicio4\Ejercicio44\obj\Debug\Ejercicio44.Properties.Resources.resources
+C:\Users\Usuario\Desktop\DIPracticas\Ejercicio4\Ejercicio44\obj\Debug\Ejercicio44.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\DIPracticas\Ejercicio4\Ejercicio44\obj\Debug\Ejercicio44.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\DIPracticas\Ejercicio4\Ejercicio44\obj\Debug\Ejercicio44.exe
+C:\Users\Usuario\Desktop\DIPracticas\Ejercicio4\Ejercicio44\obj\Debug\Ejercicio44.pdb
